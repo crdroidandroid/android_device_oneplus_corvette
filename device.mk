@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1264
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947192238959491.xml
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.security.keymint3-service.strongbox.nxp \
